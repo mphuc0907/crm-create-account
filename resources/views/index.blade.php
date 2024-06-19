@@ -1,4 +1,4 @@
-@include("layout.header")
+@include("layout_dashboard.header")
   <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark" id="sidenav-main">
     <div class="sidenav-header">
       <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
@@ -95,7 +95,7 @@
     </div>
   </aside>
   <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
-   @include("layout.navbar")
+   @include("layout_dashboard.navbar")
     <div class="container-fluid py-4">
       <div class="row">
         <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
@@ -682,4 +682,4 @@
       </div>
     </div>
   </div>
-@include("layout.footer")
+@include("layout_dashboard.footer")
